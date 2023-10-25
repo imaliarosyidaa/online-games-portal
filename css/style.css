@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: #07333C;
+}
+
+.white-text{
+    color: white;
+}
+.yellow-text{
+    color: #FFC000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-blue{
+    background: #1C7088;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    border-top: 4px solid #20A3A4;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0.81rem 3.12rem 4.5rem;
+}
+.col-one{
+    margin-right: 1.44rem;
+}
+.bg-white-one{
+    border-radius: 0.875rem;
+    background: #FFF;
+    width: 50%;
+    height: max-content;
+    flex: 50%;
+    width: 100%;
+    padding-top: 0.56rem;
+    padding-bottom: 0.94rem;
+}
+
+.bg-white-two{
+    border-radius: 0.875rem;
+    background: #FFF;
+    width: 100%;
+    max-width: 29.75rem;
+    flex: 50%;
+    height: max-content;
+    max-height: 24rem;
+}
+
+.logo{
+    width: 100%;
+    max-width: 21.875rem;
+    flex-shrink: 0;
+}
+
+.fixed-footer {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    bottom:0;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 0.62rem;
+    margin-right: 0.69rem;
+    gap: 1.19rem;
+}
+.game{
+    display: grid;
+    
+}
+.row-1{
+    margin-bottom: 0.81rem;
+}
+.image{
+    max-width: 100%; /* Maksimum lebar elemen adalah lebar parent (grid) */
+    height: auto; 
+}
+
+.blue-button{
+    border: none;
+    border-radius: 0.1875rem;
+    background: #1C7088;
+    width: auto;
+    height: auto;
+    margin-top: 0.32rem;
+}
+
+.point-ticket{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    margin-bottom: 1.12rem;
+    margin-top: 0.25rem;
+}
+.table{
+    width: 29.0625rem;
+    height: 1.625rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+}
+
+.score-containter{
+    display: grid;
+    gap:0.06rem;
+    margin: 0 0.37rem 0 0.37rem;
+}
+
+.blue-dark{
+    background: #135669;
+}
+
+.blue-light-2{
+    background: #1C7F9D;
+}
+.blue-light{
+    background: #259BBF;
+}
+.orange{
+    background: #FFC000;
+}
+.bg-dark{
+    background: #09313B;
+}
+
+.bg-blue-light{
+    border-radius: 0.875rem;
+    width: inherit;
+    height: 100%;
+    max-height: 24.325rem;
+    padding: 0.56rem 0.62rem 0.56rem 0.69rem;
+}
+.btn-bottom{
+    border-radius: 0.625rem;
+    background: #249BBE;
+    width: 14.625rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+}
+.periode-container{
+    border-radius: 0.4375rem;
+    background: #1B80A0;
+    width: 14.9375rem;
+    height: 1.5625rem;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0.31rem 0.5rem 0.31rem 0.5rem;
+    justify-content: space-between;
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.94rem;
+}
+.point{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 0.4375rem;
+    background: #FFC000;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.point img{
+    width: 1.125rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+}
+
+.ticket{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4375rem;
+    background: #FFC000;
+    margin-left: 0.94rem; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.ticket img{
+    width: 1.625rem;
+    height: 1.0625rem;
+    flex-shrink: 0;
+}
+.info-icon{
+    width: 1.75rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+    margin-left: 2rem;
+}
+.user{
+    border-radius: 0.875rem;
+    background: #249CC1;
+    width: 12.5rem;
+    height: 2.6875rem;
+    display: flex;
+}
+.user p{
+    color: white;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.user-icon{
+    width: 100%;
+    max-width: 1.625rem;
+    margin: 0.5rem 0.56rem 0.63rem;
+}
+
+.ticket-black-container{
+    border-radius: 0.4375rem;
+    background: #09313B;
+    width: 100%;
+    max-width: 8.9375rem;
+    height: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.point-black-container{
+    border-radius: 0.4375rem;
+    background: #09313B;
+    width: 100%;
+    max-width: 7.8125rem;
+    height: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.ticket-black-container p{
+    margin-right: 0.56rem;
+}
+.point-black-container p{
+    margin-right: 0.25rem;
+}
+.period-date{
+    border-radius: 0.375rem;
+    background: #09313B;
+    width: 3.5rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+}
+.periode-icon{
+    border-radius: 0.375rem;
+    background: #09313B;
+    width: 1.125rem;
+    flex-shrink: 0}
+
+.period-date p{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.00844rem;
+}
+.periode-date{
+    border-radius: 0.375rem;
+    background: #09313B;
+    width: 3.5rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+}
+.white-small-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01969rem;
+}
+.black-text{
+    color: #09313B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01969rem;
+}
+.orange-bg{
+    border-radius: 0.25rem;
+    background: #FFC000;
+    width: 4.125rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+}
+.orange-bg-2{
+    border-radius: 0.25rem;
+    background: #FFC000;
+    width: 4.125rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+}
+.trophy-icon{
+    width: 1.0625rem;
+    height: 1.0625rem;
+}
+.btn-bottom p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.table p{
+    padding-top: 0.19rem;
+}
+.visible{
+    display: none;
+}
+.leaderboard{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .black-container{
+        .black-container{
+            border-radius: 0.4375rem;
+            background: #09313B;
+            width: auto;
+            height: auto; 
+            display: flex; 
+            align-items: center;
+        }
+    }
+    .bg-white-one {
+        margin-bottom: 1rem;
+    }
+    .col {
+        flex-direction: column;
+        margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+    .hdn{
+        display: none;
+    }
+    .game-container{
+        gap: 0.5rem;
+    }
+    .bg-blue-light{
+        border-radius: 0.875rem;
+        width: max-content;
+        height: max-content;
+        padding: 0.56rem 0.62rem 0.56rem 0.69rem;
+        margin-right: 1.5rem;
+    }
+    .periode-container{
+        border-radius: 0.4375rem;
+        background: #1B80A0;
+        width: 100%;
+        height: 3rem;
+        justify-content: space-around;
+    }
+    .period-date{
+        border-radius: 0.375rem;
+        background: #09313B;
+        width: 6rem;
+        height: 100%;
+        flex-shrink: 0;
+        justify-self: start;
+    }
+    .period-date p{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 110%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.00844rem;
+    }
+    .white-small-text{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 110%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.01969rem;
+    }
+    .black-text{
+        color: #09313B;
+        text-align: center;
+        font-size: 110%;
+        font-style:normal;
+        font-weight: 1000;
+        line-height: normal;
+        letter-spacing: -0.01969rem;
+    }
+    .orange-bg{
+        border-radius: 0.25rem;
+        background: #FFC000;
+        width: max-content;
+        height: 1rem;
+        flex-shrink: 0;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+    }
+    .orange-bg-2{
+        border-radius: 0.25rem;
+        background: #FFC000;
+        width: max-content;
+        height: 1rem;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+    }
+    .info-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        flex-shrink: 0;
+        margin-right: 1rem;
+    }
+    .periode-icon{
+        border-radius: 0.375srem;
+        background: #09313B;
+        width: 2rem;
+        flex-shrink: 0
+    }
+    .image{
+        width: auto; /* Maksimum lebar elemen adalah lebar parent (grid) */
+        height: auto; 
+    }
+    .visible{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .visible p{
+        font-size: 1.75rem;
+    }
+    .visible img{
+        width: 8%;
+    }
+}
+.row-two{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Media query for screens smaller than 480px (adjust breakpoints as needed) */
+@media screen and (max-width: 480px) {
+    .bg-white-one {
+        margin-bottom: 1rem; /* Adjust margin as needed */
+    }
+    .row-two{
+        text-align: center;
+    }
+    .visible{
+        display:inline-block;
+        white-space: nowrap;
+    }
+    .visible img{
+        display:inline-block;
+    }
+    .visible p{
+        display:inline-block;
+    }
+    .hdn{
+        display: none;
+    }
+    .bg-blue-light{
+        margin-right: 1rem;
+    }
+    .col-one{
+        margin-right: 0;
+    }
+    .yellow-text{
+        font-size: 2rem;
+    }
+    .ticket-black-container p{
+        font-size: small;
+    }
+    .point-black-container p{
+        font-size: 0.7rem;
+        margin-right: 0rem;
+    }
+}
